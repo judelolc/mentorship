@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+    fieldset{
+        width: 600px;
+    }
+    td{
+        width: 60px;
+    } 
+    legend{
+        color: blue;
+    }  
+
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+        color: white;
+        
+    }
+    p{
+        text-align: center;
+        padding: 25px;
+    }
+
+    label{
+        text-align: right;
+    }
+    .ado{
+        text-align: center;
+        margin: 0;
+        padding: 0;        
+    }
+
+    footer {
+display:flex;
+background-color: black;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+height: 50px;
+width: 100%;
+border-top: 1px solid rgb(8, 8, 8);
+justify-content:center;
+   align-items:center;
+ 
+
+}
+ 
+ .phone {
+   color: darkgrey;
+   font-size: 14px;
+margin:auto;
+ }
+ 
+ .address {
+   color: darkgrey;
+   font-size: 14px;
+ margin:auto;
+ }
+
+    </style>
+</head>
+<body>
+
+    <h1>Reservation Request</h1>
+    <fieldset>
+        <legend>General Information</legend>
+
+        <table border="0" width="500" height="75"> 
+             
+            <form>   
+                <tr>               
+                    <td><lable>Arrival Date</lable></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>               
+                    <td><lable>Nights</lable></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>               
+                    <td><lable>Adults</lable></td>
+                    <td><select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        </select>                    
+                    </td>
+                </tr>
+                <tr>               
+                    <td><lable>Children</lable></td>
+                    <td><select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        </select>                    
+                    </td>
+                </tr>
+
+            </form>           
+        </table>
+    </fieldset>
+    <fieldset>
+
+        <legend>Preferences</legend>
+
+        <table border="0" width="500" height="75"> 
+             
+            <form>   
+                <tr>               
+                    <td><lable>Room Type</lable></td>
+                    <td><input type="radio">Standard</td>
+                    <td><input type="radio">Business</td>
+                    <td><input type="radio">Suite</td>
+                </tr>
+                <tr>               
+                    <td><lable>Bed Type</lable></td>
+                    <td><input type="radio">King</td>
+                    <td><input type="radio">Double Double</td>
+                    <td></td>
+                </tr>
+                <tr>               
+                    <td><lable></lable></td>
+                    <td><input type="checkbox">Smoking</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+
+            </form>           
+        </table>
+    </fieldset> 
+    
+    <fieldset>
+        <legend>General Information</legend>
+
+        <table border="0" width="500" height="75"> 
+             
+            <form>   
+                <tr>               
+                    <td><lable>Name</lable></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>               
+                    <td><lable>Email</lable></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>               
+                    <td><lable>Phone</lable></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>               
+                    <td><lable></lable></td>
+                    <td><input type="Submit" value="Submit Submissions"></td>
+                </tr>
+                <tr>               
+                    <td><lable></lable></td>
+                    <td><input type="Submit" value="Clear"></td>
+                </tr>                 
+               
+            </form>           
+        </table>
+    </fieldset>
+
+    <footer>
+
+            <div class="phone"> 
+            Phone: 0094773879590
+            </div>
+            <div class="address">
+            Address: 1234 Road Name Hwy City, State 12345
+            </div>
+           
+        
+    </footer>
+           
+       
+    
+</body>
+</html>
